@@ -132,11 +132,11 @@ body.scroll_hidden {
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 100%;
+	width: 0%; /*100 percent*/
 	height: 100vh;
 	font-size: 0;
 	pointer-events: none;
-	z-index: 1111;
+	z-index: -1111;
 }
 .lines.no-lines .line-col:before {
 	opacity: 0;
