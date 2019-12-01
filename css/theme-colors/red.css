@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6, .popup-box .desc h4, .popup-box .category {
 
 /* - Header / Menu */
 .header.fixed {
-	background-color: #f9f9f9;
+	background-color: #f9f9f9f2;
 }
 
 .header.active {
@@ -81,17 +81,19 @@ h1, h2, h3, h4, h5, h6, .popup-box .desc h4, .popup-box .category {
 .footer .soc a .icon, .follow-label {
 	color: #878787;
 }
-
+.footer .soc a:hover .icon, .follow-label {
+	color: #878787;
+	opacity: 1;
+	transition: opacity 1s;
+}
 .follow-label:after {
 	background-color: #878787;
 }
 
-.footer .soc a:hover .icon, .follow-label {
+.footer .soc a .icon:hover{
 	color: #ec0a45;
-	opacity: 1;
-	transition: opacity 1s;
-
 }
+
 
 /* -  END LIGHT THEME CODE */
 
